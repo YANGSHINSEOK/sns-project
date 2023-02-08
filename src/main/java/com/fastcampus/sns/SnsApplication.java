@@ -1,15 +1,15 @@
 
-package com.fastcampus.snsproject;
+package com.fastcampus.sns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-public class FastcampusSnsProjectApplication {
+@SpringBootApplication
+public class SnsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FastcampusSnsProjectApplication.class, args);
+        SpringApplication.run(SnsApplication.class, args);
     }
 
 }
